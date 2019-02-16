@@ -1,7 +1,7 @@
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	color:#6666;
+	background:#666;
 	font-size: 15px;
 }
 .container .nomargin {
@@ -116,3 +116,6 @@ color:#ffff;
 #contact {
 	font-family: Arial, Helvetica, sans-serif
 }
+
+
+/* EK Styles */

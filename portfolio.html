@@ -4,116 +4,87 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Bootstrap 3 | Create a Portfolio">
+		<meta name="description" content="Bootstrap 4 | Create a Portfolio">
 		<title> portfolio bootstrap</title>
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"></script>
 	</head>
 
 	<body>
-		<!--navbar starts-->
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-						data-target="#bs-example-navbar-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Ewunet Kassa</a>
+		<!-- navbar -->
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</nav>
+
+		<!--main content-->
+		<div class="container mt-5 p-4 bg-white">
+			<h2>Portfolio</h2>
+			<div class="row">
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="image/artwork_1.png" alt="Card image cap">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's content.</p>
+						</div>
+					</div>
 				</div>
-				<!--add class navbar-spy-->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav pull-right">
-						<li><a href="#header">About</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
+				<div class="col-sm">
+					Placeholder for "card" component
 				</div>
-				<!--navbar-collapse-->
 			</div>
+			<div class="row">
+				<div class="col-sm">
+					Placeholder for "card" component
+				</div>
+				<div class="col-sm">
+					Placeholder for "card" component
+				</div>
 			</div>
-			<!--nav bar ends-->
-
-			<div class="container nomargin">
-				<section id="header" class='text-center padding'>
-					<div class="container">
-
-						<div class="row">
-							<div class="col-md-4">
-								<div class="margin"></div>
-								<div>
-									<h1 class='title'>Portfolio</h1>
-									<hr class='_star_'>
-									<h2 class='skills'>Web Developer</h2>
-									<h3 class='title'>My Work</h3>
-									<hr class='star'><br>
-								</div>
-								<div class="row">
-
-									<div class="col-md-4">
-										<div class="portfolio-item">
-											<img class='imag thumbnail' src="/Users/ewunetkassa/Downloads/bootstrap_course_materials 4/img/artwork_1.png"
-												width='360' height='260' alt='portfolio-item'>
-										</div>
-									</div>
-
-									<div class="col-md-4">
-										<div class="portfolio-item">
-											<img class='imag thumbnail' src="/Users/ewunetkassa/Downloads/bootstrap_course_materials 4/img/artwork_2.png"
-												width='360' height='260' alt='portfolio-item'>
-										</div>
-									</div>
-
-									<div class="col-md-4">
-										<div class="portfolio-item">
-											<img class='imag thumbnail' src="/Users/ewunetkassa/Downloads/bootstrap_course_materials 6/img/artwork_4.png"
-												width='360' height='260' alt='portfolio-item'>
-										</div>
-									</div>
-
-									<!--row-->
-									<div class="row">
-										<div class="col-md-4">
-											<div class="portfolio-item">
-												<img class='imag thumbnail' src="/Users/ewunetkassa/Downloads/bootstrap_course_materials 6/img/artwork_5.png"
-													width='360' height='260' alt='portfolio-item'>
-											</div>
-										</div>
-
-										<div class="col-md-4">
-											<div class="portfolio-item" src="/Users/ewunetkassa/Downloads/bootstrap_course_materials 6/img/artwork_6.png"
-													width='360' height='260' alt='portfolio-item'>
-											</div>
-										</div>
-
-										<div class="col-md-4">
-											<div class="portfolio-item">
-												<img class='imag thumbnaill' src="/Users/ewunetkassa/Downloads/bootstrap_course_materials/img/artwork_7.png"
-													width='360' height='260' alt='portfolio-item'>
-											</div>
-										</div>
-
-
-										<!--contact form-->
-										<h4>Connect with me</h4>
-										<div class="social-media col-md-5">
-											<ul class="socials">
-												<li><a href="#">Github</a></li>
-												<li><a href="#">Linkedin</a></li>
-												<li><a href="#">Stackoverflow</a></li>
-											</ul>
-										</div>
-
-										</span>
-									</div>
-
-				</section>
+			<div class="row">
+				<div class="col-sm">
+					Placeholder for "card" component
+				</div>
+				<div class="col-sm">
+					Placeholder for "card" component
+				</div>
 			</div>
+		</div>
 	</body>
 
 </html>
